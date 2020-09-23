@@ -5,7 +5,7 @@
 * Build API using flask
 
 ## Code and Resources Used
-**Python Version:** 3.7.6
+**Python Version:** 3.7.6  
 **Packages:** pandas, numpy, sklearn, matplotlib, seaborn, flask, json, pickle  
 **For Web  Framework Requirements:** ```pip install -r requirements.txt```  
 **Scraping tool:** https://www.octoparse.com/  
@@ -23,7 +23,6 @@ Used octoparse scraping tool to scrape over 1000 laptop offerss, each one of the
 * Operating system
 * Price/Discounted Price
 * Brand
-* Price
 
 ## Data Cleaning
 Ater scraping the data, i needed to clean it up so it was usable for our model. I made the following changes:
