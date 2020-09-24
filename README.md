@@ -51,7 +51,7 @@ I chose Mean Absolute Error to eavaluate my models:
 The Random Forest model far outperformed the other approaches.
 * Random Forest: MAE = 792.20
 * Linear Regression: MAE = 895.09
-* Lasso Regression: MAE = 899.12
+* Lasso Regression: MAE = 899.12  
 It can be highly improved by simplifying processor and graphic card columns in a more reasonable way.
 ## Productionization
 In this step, I built flask API endpoint that was hosted on a local webserver. The API endpoint takes in a request with a list of laptop parameters and return an estimated price.
