@@ -50,3 +50,4 @@ The Random Forest model far outperformed the other approaches.
 * Lasso Regression: MAE = 899.12
 
 ## Productionization
+In this step, I built flask API endpoint that was hosted on a local webserver. The API endpoint takes in a request with a list of laptop parameters and return an estimated price.
