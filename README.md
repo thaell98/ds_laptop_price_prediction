@@ -35,6 +35,10 @@ Ater scraping the data, i needed to clean it up so it was usable for our model. 
 
 ## EDA
 
+Average price for each brand | Correlation table/brand distribution
+------------ | -------------
+![table](https://user-images.githubusercontent.com/70210449/94145932-88522380-fe73-11ea-83c5-7df7f66f6775.png) | ![corr](https://user-images.githubusercontent.com/70210449/94145720-43c68800-fe73-11ea-9994-a490b99a04a5.png) ![brand](https://user-images.githubusercontent.com/70210449/94145898-7a040780-fe73-11ea-9b49-233993785bfa.png)
+
 ## Model Building
 First, i transformed the categorical values into dummy variables and split the data into train and test sets.
 
