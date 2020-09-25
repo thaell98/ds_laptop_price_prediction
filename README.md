@@ -9,7 +9,7 @@
 **Packages:** pandas, numpy, sklearn, matplotlib, seaborn, flask, json, pickle  
 **For Web  Framework Requirements:** ```pip install -r requirements.txt```  
 **Scraping tool:** https://www.octoparse.com/  
-**Data source:**: https://www.euro.com.pl/, https://www.mediaexpert.pl/  
+**Data source:** https://www.euro.com.pl/, https://www.mediaexpert.pl/  
 **Flask Productionization:** https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2
 
 ## Web Scraping
