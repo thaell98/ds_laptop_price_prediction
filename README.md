@@ -13,19 +13,19 @@
 **Flask Productionization:** https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2
 
 ## Web Scraping
-Used octoparse scraping tool to scrape over 1000 laptop offerss, each one of them got the following:
+Used octoparse scraping tool to scrape over 1000 laptop offers, each one of them got the following:
 * Title
 * Screen
 * Processor
 * RAM
 * Disk
 * Graphic Card
-* Operating system
+* Operating System
 * Price/Discounted Price
 * Brand
 
 ## Data Cleaning
-Ater scraping the data, i needed to clean it up so it was usable for our model. I made the following changes:
+After scraping the data, I needed to clean it up so it was usable for our model. I made the following changes:
 * Parsed screen inches, resoulution out of screen column
 * Simplifed processor and graphic card columns 
 * Split disc column by type of disc
@@ -42,7 +42,7 @@ Average price for each brand | Correlation table/brand distribution
 ## Model Building
 First, i transformed the categorical values into dummy variables and split the data into train and test sets.
 
-I chose Mean Absolute Error to eavaluate my models:
+I chose Mean Absolute Error to evaluate my models:
 * Multiple Linear Regression 
 * Lasso Regression
 * Random Forest
