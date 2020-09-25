@@ -1,7 +1,7 @@
 # Data Science Laptop Price Estimator: Project Overview
-* Created a tool that estimates price of a laptop in two popular shops.
-* Scraped over 1000 laptop offers.
-* Optimized Linear, Lasso and Random Forest Regressors using GridSearchCV to reach the best model.
+* Created a tool that estimates price of a laptop in two popular shops
+* Scraped over 1000 laptop offers
+* Optimized Linear, Lasso and Random Forest Regressors using GridSearchCV to reach the best model
 * Build API using flask
 
 ## Code and Resources Used
